@@ -1,0 +1,30 @@
+
+.tag_cloud {
+    display: inline-block;
+    position: relative;
+}
+
+.tag_cloud ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tag_cloud ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+}
+
+.tag_cloud ul li a{
+    text-decoration: none;
+    color: steelblue;
+    transition: font-size 0.2s;
+}
+
+.tag_cloud ul li a:hover{
+    color: lightskyblue;
+    font-size: 20px;
+}
