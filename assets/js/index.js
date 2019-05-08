@@ -142,7 +142,6 @@
             if (e.target !== container) return;
             yawSpeed = ((e.offsetX / config.width) - 0.5) * config.maxSpeed * 2;
             pitchSpeed = ((e.offsetY / config.height) - 0.5) * config.maxSpeed * 2;
-            console.log(yawSpeed, pitchSpeed);
         });
         container.addEventListener('mouseover', e=>{
             if (e.target !== container) return;
